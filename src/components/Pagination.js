@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Pagination = ({ nPages, currentPage, setCurrentPage }) => {
+    console.log("pagi", nPages, currentPage, setCurrentPage);
 
     const pageNumbers = [...Array(nPages + 1).keys()].slice(1)
 
